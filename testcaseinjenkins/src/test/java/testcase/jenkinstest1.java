@@ -40,7 +40,7 @@ import org.testng.annotations.Test;
 			Dimension d = new Dimension(400,800);
 			driver.manage().window().setSize(d);
 
-			System.out.println("Patel is King ");
+			System.out.println("Patel is King 234");
 
 			//driver.findElement(By.xpath("//*[@id=\"mySidenav2\"]/div/a[1]")
 			
