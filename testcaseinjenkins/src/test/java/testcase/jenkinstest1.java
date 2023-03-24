@@ -39,16 +39,7 @@ import org.testng.annotations.Test;
 			robot.keyRelease(KeyEvent.VK_ESCAPE);
 			Dimension d = new Dimension(400,800);
 			driver.manage().window().setSize(d);
-
-
-<<<<<<< HEAD
-
-			System.out.println("Patel is King 234");
-=======
-			System.out.println("Patel 444");
->>>>>>> main
-
-
+			System.out.println("jenkins");
 			//driver.findElement(By.xpath("//*[@id=\"mySidenav2\"]/div/a[1]")
 			
 			
