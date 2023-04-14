@@ -39,7 +39,7 @@ import org.testng.annotations.Test;
 			robot.keyRelease(KeyEvent.VK_ESCAPE);
 			Dimension d = new Dimension(400,800);
 			driver.manage().window().setSize(d);
-			System.out.println("Dhruvil is back all1");
+			System.out.println("Dhruvil is automation learner always");
 
 			//driver.findElement(By.xpath("//*[@id=\"mySidenav2\"]/div/a[1]")
 			
