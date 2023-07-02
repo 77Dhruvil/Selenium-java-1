@@ -26,7 +26,7 @@ import org.testng.annotations.Test;
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
 			WebDriver driver = new ChromeDriver(options);
-			driver.get("https://www.educastic.com/");
+			driver.get("https://www.google.com/");
 			driver.manage().window().maximize();
 			Thread.sleep(2000);
 			driver.manage().window().fullscreen();
@@ -45,7 +45,7 @@ import org.testng.annotations.Test;
 			
 			
 			
-			
+//			
 //			WebDriver driver1;
 //			System.setProperty("webdriver.gecko.driver","D:\\Selenium\\s-lib\\geckodriver.exe");
 //			driver1 = new FirefoxDriver();
@@ -59,7 +59,7 @@ import org.testng.annotations.Test;
 //			robot1.keyPress(KeyEvent.VK_ESCAPE);
 //			Thread.sleep(2000);
 //			robot1.keyRelease(KeyEvent.VK_ESCAPE);
-	//	
+		
 		}
 
 	}
